@@ -1,0 +1,10 @@
+procedure linearSearch(A,K)
+  location = -1
+  for i = 0 to n do
+    if A[i] == K then
+    	location = i
+        break
+    end if
+  end for
+  return location
+end procedure

@@ -1,0 +1,12 @@
+procedure peakFindingNaive(A)
+	peak = -1
+	for i = 0 to n-1 do	
+		left = max(0, i-1)		// boundary case 
+		right = min(n-1, i+1)		// boundary case 
+		if left >= A[i] and right <= A[i]
+			peak = A[i]
+			break
+		end if
+	end for
+	return peak;
+end procedure

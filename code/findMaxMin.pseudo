@@ -1,0 +1,13 @@
+procedure findMaxMin(A)
+  maxLocation = 0
+  minLocation = 0
+  for i = 1 to n do
+    if A[i] > A[maxLocation] then
+    	maxLocation = i
+    end if
+    if A[i] < A[minLocation] then
+    	minLocation = i
+    end if
+  end for
+  return maxLocation,minLocation
+end procedure

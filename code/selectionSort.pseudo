@@ -1,0 +1,13 @@
+procedure selectionSort( A : list of sortable items )
+	for j = 0 to n-1 do	
+		iMin = j;
+	    for  = j+1 to n do
+    		if A[i] < A[iMin]
+        		iMin = i;
+        	end if
+    	end for
+        if iMin != j
+	        swap(A[j], A[iMin]);
+		end if
+	end for
+end procedure

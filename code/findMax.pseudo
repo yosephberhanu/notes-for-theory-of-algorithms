@@ -1,0 +1,9 @@
+procedure findMax(A)
+  max = 0
+  for i = 1 to n do
+    if A[i] > A[max] then
+    	max = i
+    end if
+  end for
+  return max
+end procedure
